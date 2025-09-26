@@ -25,6 +25,18 @@ We use the following steps to accomplish this:
 
 ---
 
+
+## Files
+
+- fractal.m: function that computes how many iterations it takes for c to diverge.
+- bisection.m: function that uses the bisection method to find the y-value where the indicator function changes sign
+- indicator_fn_at_x.m: used as the input for the bisection function (returns an anonymous function representing the indicator along a vertical line at fixed $x$)
+- poly_len.m: function that computes the curve length of the fitted polynomial
+- Jane_Condon_Project2: main script that calls all of the functions above to compute and plot the Mandelbrot set with boundary curves
+
+--- 
+
+
 ## Implementing Mandelbrot Iteration Function
 
 We create a function called `fractal.m` to implement the Mandelbrot iteration function.  
